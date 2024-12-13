@@ -227,13 +227,13 @@ public class AdventureGame{
         else if(choice4.equals("raft")||choice4.equals("RAFT")){
             Thread.sleep(2000);
             System.out.println("I collect 3 logs lying around the river and made a raft");
-            Thread.sleep(2000);
+            Thread.sleep(1000);
             System.out.println("I have successfully crossed the river ");
             Thread.sleep(2000);
             System.out.println("After walking for a few minitues,");
             Thread.sleep(2000);
             System.out.println("I found a rescue team who came to help me and I escaped successfully");
-            Thread.sleep(2000);
+            Thread.sleep(1000);
             hp=mhp;
             System.out.println("HOOORAAYYYYY---------------YOU WINNNNNNN !!!!!!!!!!-------------------------------");
             stat();
@@ -245,7 +245,8 @@ public class AdventureGame{
         System.out.println();
         System.out.println("-------------------------------- BETTER LUCK NEXT TIME --------------------------------");
         System.out.println();
-        System.out.println();        
+        System.out.println();   
+             
     }
     public static void stat() throws InterruptedException{
        Thread.sleep(3000);
