@@ -174,7 +174,7 @@ public class AdventureGame{
            while (whp > 0) {
              String c2;
              System.out.println();
-             System.out.println("type 'ATTACK'--- to attack the wolf");
+             System.out.println("type 'KILL'--- to attack the wolf");
              System.out.println("type 'HEAL'--- to use MedKit");
              c2=ui.nextLine();
               if (c2.equals("attack")||c2.equals("ATTACK")) {
